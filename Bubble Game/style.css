@@ -20,15 +20,25 @@ body{
     flex-direction: row;
     justify-content: space-evenly;
     background-color: #78c48b;
-    height: 200px;
+    height: 100px;
     border-bottom:2px solid #000; 
 }
 .box{
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 30px;
+    font-size: 20px;
     background-color: #fff;
-    height: 40px;
+    height: 30px;
     width: auto;
+}
+#bottom{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: ;
+    height: 50px;
+    width: 50px;
+    background-color:#78c48b;
+    border-radius: 50%;
 }
